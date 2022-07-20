@@ -21,5 +21,8 @@ if (etaUtente < 18){
 }else if(etaUtente > 65){
     result = result - (result * 0.4);
 }
-document.getElementById('price'); price.innerHTML = result;
+const price = document.getElementById('price'); price.innerHTML = result + "€";
+// arrotondare il prezzo a due decimali
+result = parseFloat(result.toFixed(2));
+console.log("prezzo arrotondato: ",result)
 
