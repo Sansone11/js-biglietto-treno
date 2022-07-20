@@ -21,5 +21,5 @@ if (etaUtente < 18){
 }else if(etaUtente > 65){
     result = result - (result * 0.4);
 }
-document.getElementById(price).innerHTML + result;
+document.getElementById('price'); price.innerHTML = result;
 
