@@ -11,4 +11,4 @@ console.log ("eta utente: ",etaUtente)
 const prezzoKilometro = 0.21;
 const discountOver = 0.4;
 const discountUnder = 0.2;
-const result = (numerokilometri * prezzoKilometro);
+const result = (kilometriUtente * prezzoKilometro);
