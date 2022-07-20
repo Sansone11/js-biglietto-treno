@@ -21,7 +21,7 @@ if (etaUtente < 18){
 }else if(etaUtente > 65){
     result = result - (result * 0.4);
 }
-const price = document.getElementById('price'); price.innerHTML = result + "€";
+const price = document.getElementById('prezzo'); price.innerHTML ="Il prezzo del suo biglietto è di: "+ result + "€";
 // arrotondare il prezzo a due decimali
 result = parseFloat(result.toFixed(2));
 console.log("prezzo arrotondato: ",result)
